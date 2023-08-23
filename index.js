@@ -82,7 +82,9 @@ Dalam konsep logika matematika, jika operator AND (&&) memiliki nilai true jika 
 
 Sedangkan, operator Pipe (||) akan menghasilkan true jika salah SATU NILAI bernilai true. Jika KEDUA NILAI bernilai false, maka hasil false.
 
-Lalu, jika operator negasi (!) itu membalikkan atau menginverskan suatu nilai boolean. Misalnya :
+Lalu, jika operator negasi (!) itu membalikkan atau menginverskan suatu nilai boolean. Misalnya nilai true jika dinegasikan akan menghasilkan false. Dan sebaliknya.
+
+Contoh : 
 const isTrue = true;
 !(isTrue) --> hasilnya false.
 
